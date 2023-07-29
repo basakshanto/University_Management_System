@@ -1,0 +1,175 @@
+*{
+  background-color: blanchedalmond;
+}
+
+.dateshow p {
+  color: #080808;
+  text-align: right;
+  margin: 0;
+  margin-top: 5px;
+  margin-right: 20px;
+  padding: 0;
+  font-size: 14px;
+  font-style: italic;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.admin_home{
+	min-height:450px;
+	padding:20px;
+}
+
+.faculty_home{
+	min-height:250px;
+	padding:20px;
+}
+.section{
+	width: 48%;
+	float:left;
+	margin:10px;
+}
+.section h3{
+	text-align:center;
+}
+.section ul{
+	margin: 0;
+  padding: 0;
+  border: 1px solid #ddd;
+  list-style: none;
+}
+.section ul li{
+	border: 3px solid #000000;
+}
+.section ul li a{
+	display: block;
+  padding: 20px;
+  color: #0051ff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.section ul li a:hover{
+	background:#ffffff;
+}
+
+
+.h1{
+  margin: auto;
+  text-align: center;
+}
+.table{
+  margin: auto;
+}
+
+div.form {
+    padding: 10px;
+    margin-top: 10px;
+    border: 5px solid gray;
+    width: 500px;
+    position: relative;
+    left: 380px;
+  }
+  .button {
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+  }
+  .edit{
+    background-color: #357fe7;
+    color: white;
+  }
+  .submit {
+   background-color: green;
+   color: white;
+  }
+
+  .reset {
+    background-color: red;
+    color: white;
+   }
+
+  
+  .body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    border-color: #000;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(182, 61, 61, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #0000008a;
+  }
+  
+
+  
+  .a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+ 
+
+  .btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+  
+    font-size: 18px;
+  }
+  
+  .btn:hover {background: #eee;}
+  
+  .success {color: green;}
+  .info {color: dodgerblue;}
+  .warning {color: orange;}
+  .danger {color: red;}
+  .default {color: black;}

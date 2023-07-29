@@ -1,0 +1,16 @@
+[
+    {
+        "fname": "a",
+        "lname": "b",
+        "gender": "male",
+        "phone": "1234",
+        "address": "dhaka",
+        "email": "ab@gmail.com",
+        "eduq": "Doctorate",
+        "pdep": "CSE",
+        "tex": "More than 3 years",
+        "psub": "Algorithm",
+        "password": "aaa",
+        "file": "..\/uploads\/ab@gmail.com.jpg"
+    }
+]
